@@ -48,7 +48,7 @@ attrlist = {"client":"info", "swarm":"attrs"}
 
 if(len(sys.argv) != 4):
   print "Incorrect number of args exiting"
-  print "  Usage: ./dockerpy.py list=<LISTTYPE> type=<DATATYPE> attribute=<ATTRIBUTE>"
+  print "  Usage: ./dockerstats.py list=<LISTTYPE> type=<DATATYPE> attribute=<ATTRIBUTE>"
   print "    (Required) list should be one of the following: images, services, nodes, containers, networks, volumes, client, swarm"
   print "    (Required) type should be one of the following: info, stats"
   print "    (Required) attribute is the attribute to return data for. If 'all', then returns all attributes."
